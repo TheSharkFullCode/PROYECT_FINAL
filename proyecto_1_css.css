@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: tan;
+    background-color: snow;
 }
 
 .header {
@@ -441,6 +441,15 @@ color: #FFFFFF;
     margin-top: 7px;
 
 }
+
+/*
+
+*aqui tenemos el primer ejemplo de 
+*transform: rotate; con css
+*de una imagen girada 180 grados.
+*/
+
+
 .flechaGirada{
     transform:rotate(180deg);
 }
@@ -514,8 +523,7 @@ color: #FFFFFF;
 */
 
 .seccion6 {    
-    height: 480px;
-    background-color:#F7F5F3;;
+    background-color:#F7F5F3;
     display: flex;
     justify-content: center;    
     align-items: center;
@@ -524,21 +532,25 @@ color: #FFFFFF;
     line-height: 16px;
     color: #111827;
     justify-content:space-around;
+    padding: 40px 40px 40px;
 
 }
 .breakfasCoffe{
-    width: 1280px;
-    height:390;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items:center;
     color: #111827;
+    gap: 150px;
 
 }
+.coffeStarSecc6{
+    width:50%;
+    display: flex;
+    align-items: flex-start;
+}
 
-.coffeShop {
-    width: 457px;
-    height: 120px;
+.coffeShop {    
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -546,9 +558,8 @@ color: #FFFFFF;
     flex-direction: column;
     justify-content:space-around;
     gap: 10px;
-    align-items:center;
-    /* border: solid rebeccapurple;  */
-    align-items: flex-start;    
+    align-items:flex-start;
+    width: 50%;
     
 }
 .textoSeccion6{
@@ -602,50 +613,258 @@ justify-content: space-evenly;
 */
 
 
- 
-.ContactoSecs7b{
-    width: 588px;
-    height: 320px;
-    border: #2A5B45 solid;
-    background-color: #FFFFFF;
+.formboxUnderline{
+    width: 400px;
+    border-radius: 2px;
+    border:#D1D5DB solid 2px;
+    display: flex;
+    align-items: center;
+    padding: 9px 13px;
+    
+}
+.formboxUnderline:hover{
+    width: 400px;
+    border-radius: 2px;
+    border:#9B9EA3 solid 2px;
+    display: flex;
+    border-radius: 8px;
+  
+}
+.formboxUnderline:focus{
+    width: 400px;
+    border-radius: 2px;
+    border:#3F8F6B solid 2px;
+    
+}
+
+.selector{
+    width:50px;
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.listDesplegable{
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+    border-radius: 19px;
 
 }
-.formContact7B{
-    width: 470px;
-    height: 488px;
-    background-color: #FFFFFF;
-
+.numero3{
+    border: 0px;
+    width: 350px;
 
 }
-#name,#email,#telePhono{
-    width: 470px;
-    height: 34px;
+.numero3:hover{
+    border: 0px;
+    width: 350px;
+    border-color:#3F8F6B  ;
 }
-#texto{
-width: 470px;
-height: 142px;
+.numero{  
+    display: flex;
+    align-items: center;
+    width: 390px;
+    border: 0;
+    /* width: 470px;
+    height: 34px; */
+    /* margin-left: 5px; */
+
+    &:focus{
+    outline: none;
+    border:#3F8F6B solid 2px;
+    }
+
 }
+
+
+.seccion7{
+    display: flex;
+    justify-content:space-around;
+    width:100%;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.boxTelegrap{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6B7280;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.boxtelePhone{
+    display: flex;
+    /* border: red solid; */
+    gap: 20px;
+    color: #6B7280;
+}
+
+#textoForm7{
+    width: 425px;
+    height: 142px;
+    border-radius: 2px;    
+    
+}
+
+.pSmall{
+    font-size: 12px;
+    color:#6B7280 ;
+    font-family: 'Outfit', sans-serif;
+}
+.boxMail{
+    display: flex;
+    /* border: #2A5B45 solid; */
+    gap:20px;
+}
+.boxJob{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    gap:10px
+
+}
+.boxJob a{
+    display: flex;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 16px;
+    color:#000000;
+
+}
+.subtituLo8{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111827;
+
+}
+.seccion7{
+    height: 552px;
+    border: orange solid;
+    background-color: #E3DED7;
+}
+
 .formContact7a{
-    width: 588px;
-    height: 320px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+    gap:10px;
+    width: 700px;
+    height: 420px;
     background-color: #E3DED7;
+    /* border: yellow solid; */
+    gap: 30px;
+
 }
-.formContact7B{
+.seccion7B{
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    gap:10px;
     background-color: #FFFFFF;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
+       
+    /* width: 50%; */
+    /* height: 480px; */
+    /* border: red solid;    */
+    /* gap:5px;
+    width: 470px;
+    height: 400px;
+    padding: 20px; */
+
+
     
 }
+
+.boxNew{
+    width:1300px;
+    height: 552px ;
+    border: orange solid;
+    display: flex;    
+    justify-content: center;
+
+}
+.sideA{
+    width: 600px;
+    height: 552px;
+    border: rosybrown solid;
+    margin-left: 20px;
+    background: #E3DED7;
+    display: flex;
+    justify-content: center;
+}
+.sideB{
+    width: 600px;
+    height: 552px;
+    border: #3F8F6B solid;
+    background: #FFFFFF;
+}
+
+
+
+.boxContainerseccion7A{
+    width: 588px;
+    height: 550px;
+    border: orchid solid;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    /* padding: 20px */
+    
+    
+}
+
+.boxContainerseccion7b{
+    width: 588px;
+    height: 550px;
+    border:darkgreen solid;
+}
+/* .boxContainerseccion7a{
+    width: 612px;
+    height: 550px;
+    border: greenyellow solid;
+} */
+
+/* .conTainer7B{
+    width: 588px;
+    height: 552px;
+    /* border: orangered solid; */
+    /* display: flex;
+    justify-content: center;
+    padding: 45px;
+} */ 
+
 #buttonselect7{
 width: 90px;
 height: 40px;
 background: #2A5B45;
 border-radius: 4px;
+
 }
+
+.terminoYcondiciones{
+    display: flex;
+    flex-direction: column;
+    /* gap:20px; */
+    
+}
+
 

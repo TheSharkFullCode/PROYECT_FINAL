@@ -667,10 +667,7 @@ justify-content: space-evenly;
     align-items: center;
     width: 390px;
     border: 0;
-    /* width: 470px;
-    height: 34px; */
-    /* margin-left: 5px; */
-
+ 
     &:focus{
     outline: none;
     border:#3F8F6B solid 2px;
@@ -681,13 +678,10 @@ justify-content: space-evenly;
 
 .seccion7{
     display: flex;
-    justify-content:space-around;
-    width:100%;   
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    gap: 20px;
+    background-color: #E3DED7;
+    /* justify-content:space-around; */
+    /* width:100%;    */
 
 }
 
@@ -716,19 +710,40 @@ justify-content: space-evenly;
     width: 425px;
     height: 142px;
     border-radius: 2px;    
-    
 }
 
 .pSmall{
-    font-size: 12px;
+    font-size: 14px;
     color:#6B7280 ;
     font-family: 'Outfit', sans-serif;
 }
 .boxMail{
     display: flex;
-    /* border: #2A5B45 solid; */
     gap:20px;
+    /* border: #2A5B45 solid; */
 }
+
+.buttonMailto{
+    width: 232px;
+    height: 48px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background: #515051;
+    border-radius: 4px;    
+    /* border: darkorange solid; */
+}
+.buttonMailto1{
+    width: 182px;
+    height: 48px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    background: #515051;
+    border-radius: 4px;    
+    /* border: darkorange solid; */
+}
+
 .boxJob{
     display: flex;
     font-style: normal;
@@ -756,11 +771,7 @@ justify-content: space-evenly;
     color: #111827;
 
 }
-.seccion7{
-    height: 552px;
-    border: orange solid;
-    background-color: #E3DED7;
-}
+
 
 .formContact7a{
     display: flex;
@@ -771,8 +782,8 @@ justify-content: space-evenly;
     width: 700px;
     height: 420px;
     background-color: #E3DED7;
-    /* border: yellow solid; */
     gap: 30px;
+    /* border: yellow solid; */
 
 }
 .seccion7B{
@@ -793,42 +804,22 @@ justify-content: space-evenly;
 
     
 }
-
-.boxNew{
-    width:1300px;
-    height: 552px ;
-    border: orange solid;
-    display: flex;    
-    justify-content: center;
+.cjaComentario7{
+    /* border: #3F8F6B solid; */
 
 }
-.sideA{
-    width: 600px;
-    height: 552px;
-    border: rosybrown solid;
-    margin-left: 20px;
-    background: #E3DED7;
+.aceptarTerminos{
     display: flex;
-    justify-content: center;
-}
-.sideB{
-    width: 600px;
-    height: 552px;
-    border: #3F8F6B solid;
-    background: #FFFFFF;
 }
 
-
-
-.boxContainerseccion7A{
+.boxContainerseccion7B{
     width: 588px;
     height: 550px;
     border: orchid solid;
     background: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     /* padding: 20px */
-    
     
 }
 
@@ -837,20 +828,7 @@ justify-content: space-evenly;
     height: 550px;
     border:darkgreen solid;
 }
-/* .boxContainerseccion7a{
-    width: 612px;
-    height: 550px;
-    border: greenyellow solid;
-} */
 
-/* .conTainer7B{
-    width: 588px;
-    height: 552px;
-    /* border: orangered solid; */
-    /* display: flex;
-    justify-content: center;
-    padding: 45px;
-} */ 
 
 #buttonselect7{
 width: 90px;
@@ -867,4 +845,118 @@ border-radius: 4px;
     
 }
 
+/*
+*termina mi seccion 7 
+*
+*y pasamos a la seccion8
+*
+*/
+
+.footSeccion8{
+    /* width: 1289px; */
+    height: 310px;
+    background-color:#1F1815;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* border: rebeccapurple solid; */
+
+}
+.footContainer{
+    width: 1280px;
+    height: 254px;
+    /* border:red solid; */
+    gap: 3px;
+    background: #000000;
+    color: white;
+    display: flex;
+    gap:150px; 
+    
+
+}
+
+.boxFormulary-logo{
+    display: flex;
+}
+.parrafoSec8{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.4628px;
+    line-height: 35px;
+}
+
+.boxFormularys8{
+    display: flex;
+
+}
+.logCoffe{
+    /* border: red solid; */
+    width: 355.33px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.img8Telephone{
+    display: flex;
+    gap: 5px;
+    width: 160px;
+    height: 24px;
+    /* border: orange solid; */
+    
+}
+
+.imgMail8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 152px;
+    height: 16px;
+    /* border: orange solid; */
+
+}
+.shopContact{
+    width: 110px;
+    height: 152px;
+    /* border: olive solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.shopContact p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+.helpSave{
+    display: flex;
+    flex-direction: column;    
+    /* border: yellow solid; */
+    width: 455.33px;
+    height: 152px;
+    gap:20px;
+  
+}
+.seguritySave{
+    /* border: #E3DED7 solid; */
+    width: 255.33px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.seguritySave p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px; 
+   
+}
 

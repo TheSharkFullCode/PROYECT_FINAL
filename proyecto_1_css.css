@@ -594,6 +594,7 @@ h3 {
     justify-content: center;
     align-items: center;
     color: #111827;
+
     
 
 }
@@ -617,13 +618,22 @@ h3 {
     font-size: 14px;
     line-height: 16px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 10px;
-    align-items: flex-start;
+    justify-content: space-between;
+    gap: 150px;
+    align-items:flex-start;
+    text-align: left;
     width: 50%;
 
 }
+.boxbreakCoffes{
+    width: 457px;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+
+    
+}
+
 
 .textoSeccion6 {
     font-style: normal;
@@ -661,9 +671,9 @@ h3 {
     font-size: 24px;
     line-height: 28px;
     color: #2A5B45;
-    text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
+    
 
 }
 
@@ -682,19 +692,19 @@ h3 {
 
 .formboxUnderline {
     width: 100%;
-    border: #D1D5DB solid 1px; 
+    /* border: #D1D5DB solid 1px;  */
     border-radius: 10px; 
     display: flex;
     align-items: center;
     outline: none;
-    
+    border: 0;    
     /* padding: 9px 13px; */
     
 
 }
 
 .formboxUnderline:hover {
-    border: #9B9EA3 solid 1px;
+    /* border: #9B9EA3; */
     /* outline: none;
     border: 0; */
 
@@ -708,28 +718,31 @@ h3 {
 }
 
 .selector {
-    width: 50px;
-    height: 30px;
+    /* width: 50px;
+    height: 30px; */
     border: 0;
     outline: none;
-    /* border-radius: 10px; */
+    border-radius: 6px;
 }
-.selector:hover {
+/* .selector:hover {
     width: 50px;
     height: 30px;
     border: 0;
     border: #9B9EA3 solid 1px;
 
-    /* border-radius: 10px; */
+    border-radius: 10px;
     
-}
+} */
 
 .listDesplegable {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 95%;
     outline: none;
-    border: 0px;
+    border-radius: 6px;
+    border: #D1D5DB solid 1px;
+    padding: 9px 13px 9px 13px;
+    
     
     /* border-radius: 19px; */
     /* gap: 5px; */
@@ -737,28 +750,37 @@ h3 {
 .listDesplegable:hover {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 95%;
     outline: none;
+    border: #9B9EA3 1px solid;
 
     
     
 }
+.listDesplegable:focus {
+    width: 95%;
+    outline: none;
+    border: #3F8F6B solid 1px;   
+    /* border: #9B9EA3 1px solid; */
+    
+}
 
-.numero3 {
+.numero3{
     border: 0px;
-    width: 100%;
+    width: 100%;   
+    background-color: transparent;
+
     /* color: #6B7280; */
-
-
+    
+    
 }
 
 .numero3:hover {
-    border-color: #3F8F6B;
+    border:none;
 }
 
-.numero3:focus {
+.numero3:focus{
     outline: 0;
-    border-color: #3F8F6B;
 }
 
 .numero {
@@ -766,25 +788,27 @@ h3 {
     display: flex;
     align-items: center;
     border: #D1D5DB solid 1px;
-    padding: 13px 17px;
+    padding: 9px 13px 9px 13px;  
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #6B7280;
-    border-radius: 6px;
     outline: none;
-
+    border-radius: 6px;
+    
     &:hover {
-       border: #9B9EA3 solid 1px;
-    } outline: none;
-
+        border: #9B9EA3 solid 1px;
+    }
+    
     &:focus {
-        outline: none;
         border: #3F8F6B solid 1px;
         outline: none;
     }
 
+    /* border-radius: 6px; */
 }
+
+
 
 .textobold{
    text-decoration: underline;
@@ -792,7 +816,6 @@ h3 {
    font-weight: 400;
 
 }
-
 
 .seccion7 {
     display: flex;
@@ -827,7 +850,7 @@ h3 {
 }
 
 #textoForm7 {
-    width: 98%;
+    width: 96%;
     height: 142px;
     outline: none;
     border-radius: 6px;
@@ -836,7 +859,6 @@ h3 {
     
 }
 #textoForm7:hover {
-    width: 98%;
     height: 142px;
     outline: none;
     border-radius: 6px;
@@ -852,15 +874,20 @@ h3 {
     background-color: green;
 }
 
-.pSmall {
+/* .pSmall {
     font-size: 14px;
-    color: #6B7280;
+    
     font-family: 'Outfit', sans-serif;
-}
+} */
 
 .boxMail {
     display: flex;
-    gap: 20px;
+    gap: 20px;    
+    font-family :Outfit;
+    font-Weight:400;
+    font-size: 14px;
+    Line-height:16px;
+    color: #6B7280;
     /* border: #2A5B45 solid; */
 }
 
@@ -1073,7 +1100,9 @@ h3 {
 .footLinks {
     display: flex;
     gap: 127px;
-    padding-right:350px;
+    position: relative;
+    right: 25%;
+
     
 }
 
